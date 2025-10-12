@@ -1,0 +1,62 @@
+{
+    "children": {
+        "Parent": {
+            "children": {},
+            "type": "Virtual",
+            "balance": 122.0,
+            "transactions": [
+                {
+                    "id": "4fa61580-e72e-4f5c-9de9-3ad5e3810489",
+                    "amount": 122.0,
+                    "description": "Example",
+                    "timestamp": "2025-10-12 22:19:55"
+                }
+            ]
+        },
+        "Summary example": {
+            "children": {
+                "Child example": {
+                    "children": {},
+                    "type": "Virtual",
+                    "balance": 120.0,
+                    "transactions": [
+                        {
+                            "id": "ca3d163f-1ba1-40f0-b2ea-72713796a9b9",
+                            "amount": 120.0,
+                            "description": "Example",
+                            "timestamp": "2025-10-12 22:20:09"
+                        }
+                    ]
+                },
+                "Cash example": {
+                    "children": {},
+                    "type": "Cash",
+                    "balance": 6025.0,
+                    "transactions": [],
+                    "denominations": {
+                        "bills": {
+                            "500": 0,
+                            "200": 30,
+                            "100": 0,
+                            "50": 0,
+                            "20": 0,
+                            "10": 2,
+                            "5": 1
+                        },
+                        "coins": {
+                            "2": 0,
+                            "1": 0,
+                            "0.5": 0,
+                            "0.2": 0,
+                            "0.1": 0
+                        }
+                    }
+                }
+            },
+            "type": "Summary"
+        }
+    },
+    "type": "Virtual",
+    "balance": 0.0,
+    "transactions": []
+}
