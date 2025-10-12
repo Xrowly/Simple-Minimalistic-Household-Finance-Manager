@@ -230,8 +230,11 @@ class FinanceManager:
         for name, data in sorted(category["children"].items()):
             full_path = f"{path}.{name}" if path else name
             balance = self.calculate_balance(data)
-            # Ensure balance text is cleanly formatted and left-aligned
-            balance_str = f"{balance:.2f}".rstrip('0').rstrip('.') if balance.is_integer() else f"{balance:.2f}"
+            # Handle both int and float types for balance
+            if isinstance(balance, int):
+                balance_str = str(balance)
+            else:
+                balance_str = f"{balance:.2f}".rstrip('0').rstrip('.') if balance.is_integer() else f"{balance:.2f}"
             iid = self.tree.insert(parent, "end", text=f"{name} ({data['type']})", values=(balance_str,), tags=(full_path,))
             self.populate_tree(iid, data, full_path)
         self.update_total_balance()
