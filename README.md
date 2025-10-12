@@ -84,9 +84,11 @@ The **Simple Minimalistic Household Financial/Capital Manager** is a prototype t
 - **Other bugs may be present 
 
 ## Screenshots
-[Main Window](screenshots/Screenshot 2025-10-10 012854.png)
-[Transactions](screenshots/Screenshot 2025-10-10 012905.png)
-[Balances](screenshots/Screenshot 2025-10-12 222114.png)
+
+![Main Window](screenshots/Screenshot%202025-10-10%20012854.png)
+![Transactions](screenshots/Screenshot%202025-10-10%20012905.png)
+![Balances](screenshots/Screenshot%202025-10-12%20222114.png)
+
 
 
 ## Development Notes
