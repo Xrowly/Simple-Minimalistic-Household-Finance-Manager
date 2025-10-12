@@ -81,6 +81,14 @@ The **Simple Minimalistic Household Financial/Capital Manager** is a prototype t
 - **Cash Limits**: Denominations are fixed (e.g., €500 to €0.1)—no custom ones.
 - **No Export**: Can’t save data outside the JSON yet.
 - **Transaction History Bug**: Virtual category history in the Details pane is glitchy—use “View Full History” as a workaround. Fix is in the works!
+- **Other bugs may be present 
+
+## Screenshots
+
+![Main Window](screenshots/Screenshot 2025-10-10 012854.png)
+![Transactions](screenshots/Screenshot 2025-10-10 012905.png)
+![Balances](screenshots/Screenshot 2025-10-12 222114.png)
+
 
 ## Development Notes
 - This is a prototype (Version 0.1.0), all in one file. Might split it later.
