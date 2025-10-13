@@ -14,7 +14,7 @@ The **Simple Minimalistic Household Financial/Capital Manager** is a prototype t
 2. **Grab the Code**:
    - Clone it:
      ```bash
-     git clone https://github.com/[your-username]/Simple-Minimalistic-Household-Finance-Manager.git
+     git clone https://github.com/Xrowly/Simple-Minimalistic-Household-Finance-Manager.git
      cd Simple-Minimalistic-Household-Finance-Manager
      ```
 
@@ -109,5 +109,5 @@ MIT License—use it how you want. Add a `LICENSE` file if you feel like it.
 - Fix the transaction history bug soon.
 
 ## Contact
-- **GitHub**: [your-username](https://github.com/your-username)
+- **GitHub**: [Xrowly](https://github.com/Xrowly)
 - Drop an issue or idea there!
